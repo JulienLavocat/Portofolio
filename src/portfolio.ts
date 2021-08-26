@@ -5,25 +5,25 @@ import github from "./assets/img/icons/common/github.svg";
 import airbnb from "./assets/img/icons/common/airbnbLogo.png";
 
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
+	name: "Julien Lavocat",
+	title: "Hi, I'm Julien",
 	description:
-		"A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python / Django / Flask and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
-	resumeLink: "https://cv.hanzla.ga",
+		"A motivated backend and occasionaly frontend developper who likes to solve challenges. I also build cross platform mobile apps using Flutter.",
+	resumeLink: "https://julienlavocat.me/resume",
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+	githubUserName: "JulienLavocat",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "https://www.facebook.com/1hanzla100",
-	instagram: "https://www.instagram.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
-	github: "https://github.com/1hanzla100",
-	linkedin: "https://www.linkedin.com/in/hanzla-tauqeer-0869281ba/",
+	facebook: "",
+	instagram: "",
+	twitter: "",
+	github: "https://github.com/JulienLavocat",
+	linkedin: "https://www.linkedin.com/in/julien-lavocat-4b107a179/",
 };
 
 export const skillsSection = {
@@ -131,80 +131,47 @@ export const SkillBars = [
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
-		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
+		schoolName: "Saint-Louis High School Bordeaux, France",
+		subHeader:
+			"Baccalauréat Laboratory Sciences and Technologies, Biotechnologies option",
+		duration: "September 2015 - June 2018",
+		desc: "Studied laboratory sciences and all the technologies related to the biotechnologies field, mainly biochemistry and microbiology",
+		descBullets: [],
 	},
 	{
-		schoolName: "Harvard",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
+		schoolName: "Bordeaux University of Technology",
+		subHeader: "Bachelor in life sciences",
+		duration: "September 2020 - Present",
 		desc: "Participated in the research of XXX and published 3 papers.",
-		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetfgur adipiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
-	},
-	{
-		schoolName: "Stanford University",
-		subHeader: "Bachelor of Science in Computer Science",
-		duration: "September 2013 - April 2017",
-		desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-		descBullets: [
-			"Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit",
-		],
+		descBullets: [],
 	},
 ];
 
 export const experience = [
-	{
-		role: "Software Engineer",
-		company: "Google",
-		companylogo: googlelogo,
-		date: "June 2018 – Present",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-		descBullets: [
-			"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
-	},
-	{
-		role: "Front-End Developer",
-		company: "Github",
-		companylogo: github,
-		date: "May 2017 – May 2018",
-		desc: "Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-	},
-	{
-		role: "Software Engineer Intern",
-		company: "Airbnb",
-		companylogo: airbnb,
-		date: "Jan 2015 – Sep 2015",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-	},
+	// {
+	// 	role: "Software Engineer",
+	// 	company: "Google",
+	// 	companylogo: googlelogo,
+	// 	date: "June 2018 – Present",
+	// 	desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+	// 	descBullets: [
+	// 		"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
+	// 		"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+	// 	],
+	// }
 ];
 
 export const projects = [
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		link: "https://example.com",
+		name: "JDR-LF",
+		desc: "A Firebase-based webapp similar to Roll20 designed to play online tabletop role-playing game. Players have access to game rooms with chats and maps of the world and scenes",
+		link: "https://funds-1e780.web.app/",
 	},
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		github: "https://github.com/1hanzla100",
-	},
-	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		github: "https://github.com/1hanzla100",
-		link: "https://example.com",
+		name: "Indiebackend",
+		desc: "A Backend-as-a-Service for game developpers providing player's statistics, serverless functions, payments, etc. Hosted on OVHCloud and using Kubernetes and microservices",
+		link: "https://indiebackend.com",
+		github: "https://github.com/Indiebackend",
 	},
 ];
 

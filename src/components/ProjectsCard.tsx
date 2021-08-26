@@ -4,7 +4,16 @@ import { Card, CardBody, Col, Button } from "reactstrap";
 
 import { Fade } from "react-reveal";
 
-const ProjectsCard = ({ data }) => {
+export type ProjectsCardProps = {
+	data: {
+		name: string;
+		desc: string;
+		link?: string;
+		github?: string;
+	};
+};
+
+const ProjectsCard = ({ data }: ProjectsCardProps) => {
 	return (
 		<Col lg="6">
 			<Fade bottom duration={1000} distance="40px">
@@ -19,8 +28,7 @@ const ProjectsCard = ({ data }) => {
 										className="btn-icon"
 										color="github"
 										href={data.link}
-										target="_blank"
-									>
+										target="_blank">
 										<span className="btn-inner--icon">
 											<i className="fa fa-github" />
 										</span>
@@ -31,8 +39,7 @@ const ProjectsCard = ({ data }) => {
 										className="btn-icon"
 										color="success"
 										href={data.link}
-										target="_blank"
-									>
+										target="_blank">
 										<span className="btn-inner--icon">
 											<i className="fa fa-arrow-right mr-2" />
 										</span>

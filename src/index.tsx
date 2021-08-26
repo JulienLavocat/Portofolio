@@ -22,8 +22,8 @@ ReactDOM.render(
 		<Skills />
 		<Proficiency />
 		<Education />
-		<Experience />
-		<Feedbacks />
+		{/* <Experience /> */}
+		{/* <Feedbacks /> */}
 		<Projects />
 		<GithubProfile />
 	</>,
