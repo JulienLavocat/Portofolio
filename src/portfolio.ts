@@ -212,7 +212,7 @@ export const projects = [
 	},
 	{
 		name: "Swindler",
-		desc: "",
+		desc: "Small-scale 2D MMOG (500 players / server) in a piracy world where your main goal is to build your base on one of the proceduraly-generated islands and defend it against other player's raids. Client is made using Unity and backend is written in C# and UDP is used for networking",
 		github: "https://github.com/Swindler-MMO",
 	},
 ];
