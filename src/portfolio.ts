@@ -41,80 +41,114 @@ export const skillsSection = {
 		),
 	],
 
-	softwareSkills: [
-		{
-			skillName: "JavaScript",
-			fontAwesomeClassname: "logos:javascript",
-		},
-		{
-			skillName: "TypeScript",
-			fontAwesomeClassname: "logos:typescript-icon",
-		},
-		{
-			skillName: "reactjs",
-			fontAwesomeClassname: "vscode-icons:file-type-reactjs",
-		},
-		{
-			skillName: "nodejs",
-			fontAwesomeClassname: "logos:nodejs-icon",
-		},
-		{
-			skillName: "flutter",
-			fontAwesomeClassname: "logos:flutter",
-		},
-		{
-			skillName: "html-5",
-			fontAwesomeClassname: "vscode-icons:file-type-html",
-		},
-		{
-			skillName: "css3",
-			fontAwesomeClassname: "vscode-icons:file-type-css",
-		},
-		{
-			skillName: "mongoDB",
-			fontAwesomeClassname: "vscode-icons:file-type-mongo",
-		},
-		{
-			skillName: "sql-database",
-			fontAwesomeClassname: "vscode-icons:file-type-sql",
-		},
-		{
-			skillName: "aws",
-			fontAwesomeClassname: "logos:aws",
-		},
-		{
-			skillName: "firebase",
-			fontAwesomeClassname: "logos:firebase",
-		},
-		{
-			skillName: "python",
-			fontAwesomeClassname: "logos:python",
-		},
-		{
-			skillName: "git",
-			fontAwesomeClassname: "logos:git-icon",
-		},
-		{
-			skillName: "docker",
-			fontAwesomeClassname: "logos:docker-icon",
-		},
-		{
-			skillName: "kubernetes",
-			fontAwesomeClassname: "logos:kubernetes",
-		},
-		{
-			skillName: "nestjs",
-			fontAwesomeClassname: "logos:nestjs",
-		},
-		{
-			skillName: "postgresql",
-			fontAwesomeClassname: "logos:postgresql",
-		},
-		{
-			skillName: "unity",
-			fontAwesomeClassname: "logos:unity",
-		},
-	],
+	softwareSkills: {
+		Languages: [
+			{
+				skillName: "JavaScript",
+				fontAwesomeClassname: "logos:javascript",
+			},
+			{
+				skillName: "TypeScript",
+				fontAwesomeClassname: "logos:typescript-icon",
+			},
+			{
+				skillName: "Java",
+				fontAwesomeClassname: "logos:java",
+			},
+			{
+				skillName: "CSharp",
+				fontAwesomeClassname: "vscode-icons:file-type-csharp",
+			},
+			{
+				skillName: "Go",
+				fontAwesomeClassname: "vscode-icons:file-type-go",
+			},
+			{
+				skillName: "SQL",
+				fontAwesomeClassname: "carbon:sql",
+			},
+			{
+				skillName: "HTML5",
+				fontAwesomeClassname: "vscode-icons:file-type-html",
+			},
+			{
+				skillName: "CSS3",
+				fontAwesomeClassname: "vscode-icons:file-type-css",
+			},
+			{
+				skillName: "Python",
+				fontAwesomeClassname: "logos:python",
+			},
+		],
+		"Libraries and frameworks": [
+			{
+				skillName: "ReactJS",
+				fontAwesomeClassname: "vscode-icons:file-type-reactjs",
+			},
+			{
+				skillName: "NestJS",
+				fontAwesomeClassname: "logos:nestjs",
+			},
+			{
+				skillName: "Flutter",
+				fontAwesomeClassname: "logos:flutter",
+			},
+			{
+				skillName: "Unity",
+				fontAwesomeClassname: "logos:unity",
+			},
+		],
+		Tools: [
+			{
+				skillName: "NodeJS",
+				fontAwesomeClassname: "logos:nodejs-icon",
+			},
+			{
+				skillName: "Git",
+				fontAwesomeClassname: "logos:git-icon",
+			},
+			{
+				skillName: "Docker",
+				fontAwesomeClassname: "logos:docker-icon",
+			},
+			{
+				skillName: "Kubernetes",
+				fontAwesomeClassname: "logos:kubernetes",
+			},
+		],
+		Databases: [
+			{
+				skillName: "MongoDB",
+				fontAwesomeClassname: "vscode-icons:file-type-mongo",
+			},
+			{
+				skillName: "Redis",
+				fontAwesomeClassname: "logos:redis",
+			},
+			{
+				skillName: "PostgreSQL",
+				fontAwesomeClassname: "logos:postgresql",
+			},
+		],
+		Providers: [
+			{
+				skillName: "AWS",
+				fontAwesomeClassname: "logos:aws",
+			},
+			{
+				skillName: "Firebase",
+				fontAwesomeClassname: "logos:firebase",
+			},
+			{
+				skillName: "OVH",
+				fontAwesomeClassname: "cib:ovh",
+			},
+			{
+				skillName: "Scaleway",
+				fontAwesomeClassname: "cib:scaleway",
+			},
+		],
+	},
 };
 
 export const SkillBars = [
@@ -175,6 +209,11 @@ export const projects = [
 		desc: "A Backend-as-a-Service for game developpers providing player's statistics, serverless functions, payments, etc. Hosted on OVHCloud and using Kubernetes and microservices",
 		link: "https://indiebackend.com",
 		github: "https://github.com/Indiebackend",
+	},
+	{
+		name: "Swindler",
+		desc: "",
+		github: "https://github.com/Swindler-MMO",
 	},
 ];
 
