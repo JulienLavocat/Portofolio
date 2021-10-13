@@ -16,7 +16,7 @@ const Skills = () => {
 				<p className="lead">{skillsSection.subTitle}</p>
 				<Row className="mb-5">
 					<Col lg="6">
-						<DisplayLottie animationData={webdev} />
+						<DisplayLottie animationData={webdev} speed={0.5} />
 					</Col>
 					<Col
 						lg="6"
