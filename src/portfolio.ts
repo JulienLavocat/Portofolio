@@ -43,18 +43,6 @@ export const skillsSection = {
 
 	softwareSkills: [
 		{
-			skillName: "html-5",
-			fontAwesomeClassname: "vscode-icons:file-type-html",
-		},
-		{
-			skillName: "css3",
-			fontAwesomeClassname: "vscode-icons:file-type-css",
-		},
-		{
-			skillName: "sass",
-			fontAwesomeClassname: "logos:sass",
-		},
-		{
 			skillName: "JavaScript",
 			fontAwesomeClassname: "logos:javascript",
 		},
@@ -75,20 +63,20 @@ export const skillsSection = {
 			fontAwesomeClassname: "logos:flutter",
 		},
 		{
-			skillName: "swift",
-			fontAwesomeClassname: "vscode-icons:file-type-swift",
+			skillName: "html-5",
+			fontAwesomeClassname: "vscode-icons:file-type-html",
 		},
 		{
-			skillName: "npm",
-			fontAwesomeClassname: "vscode-icons:file-type-npm",
-		},
-		{
-			skillName: "sql-database",
-			fontAwesomeClassname: "vscode-icons:file-type-sql",
+			skillName: "css3",
+			fontAwesomeClassname: "vscode-icons:file-type-css",
 		},
 		{
 			skillName: "mongoDB",
 			fontAwesomeClassname: "vscode-icons:file-type-mongo",
+		},
+		{
+			skillName: "sql-database",
+			fontAwesomeClassname: "vscode-icons:file-type-sql",
 		},
 		{
 			skillName: "aws",
@@ -109,6 +97,22 @@ export const skillsSection = {
 		{
 			skillName: "docker",
 			fontAwesomeClassname: "logos:docker-icon",
+		},
+		{
+			skillName: "kubernetes",
+			fontAwesomeClassname: "logos:kubernetes",
+		},
+		{
+			skillName: "nestjs",
+			fontAwesomeClassname: "logos:nestjs",
+		},
+		{
+			skillName: "postgresql",
+			fontAwesomeClassname: "logos:postgresql",
+		},
+		{
+			skillName: "unity",
+			fontAwesomeClassname: "logos:unity",
 		},
 	],
 };
