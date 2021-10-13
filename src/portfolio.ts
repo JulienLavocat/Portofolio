@@ -8,7 +8,7 @@ export const greetings = {
 	name: "Julien Lavocat",
 	title: "Hi, I'm Julien",
 	description:
-		"A motivated backend and occasionaly frontend developper who likes to solve challenges. I also build cross platform mobile apps using Flutter.",
+		"A motivated backend and occasionaly frontend developper who likes to overcome technical challenges. I also build cross platform mobile apps using Flutter.",
 	resumeLink: "https://julienlavocat.me/resume",
 };
 
@@ -23,22 +23,21 @@ export const socialLinks = {
 	instagram: "",
 	twitter: "",
 	github: "https://github.com/JulienLavocat",
-	linkedin: "https://www.linkedin.com/in/julien-lavocat-4b107a179/",
+	linkedin: "https://www.linkedin.com/in/julienlavocat/",
 };
 
 export const skillsSection = {
 	title: "What I do",
-	subTitle:
-		"CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+	subTitle: "Passionated developper who like to explore and learn new things",
 	skills: [
 		emoji(
-			"⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+			"⚡ Creating and managing backend architectures using modern technologies"
 		),
 		emoji(
-			"⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"
+			"⚡ Writting frontends that integrates seamlessly with any backend"
 		),
 		emoji(
-			"⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+			"⚡ Able to work with any third party services such as Firebase / AWS / OVHCloud / etc."
 		),
 	],
 
@@ -116,33 +115,33 @@ export const skillsSection = {
 
 export const SkillBars = [
 	{
-		Stack: "Frontend/Design", //Insert stack or technology you have experience in
-		progressPercentage: "90", //Insert relative proficiency in percentage
+		Stack: "Backend",
+		progressPercentage: "80",
 	},
 	{
-		Stack: "Backend",
+		Stack: "Frontend/Design",
 		progressPercentage: "70",
 	},
 	{
 		Stack: "Programming",
-		progressPercentage: "60",
+		progressPercentage: "80",
 	},
 ];
 
 export const educationInfo = [
+	{
+		schoolName: "Bordeaux University of Technology",
+		subHeader: "Bachelor degree of biology",
+		duration: "September 2020 - Present",
+		desc: "",
+		descBullets: [],
+	},
 	{
 		schoolName: "Saint-Louis High School Bordeaux, France",
 		subHeader:
 			"Baccalauréat Laboratory Sciences and Technologies, Biotechnologies option",
 		duration: "September 2015 - June 2018",
 		desc: "Studied laboratory sciences and all the technologies related to the biotechnologies field, mainly biochemistry and microbiology",
-		descBullets: [],
-	},
-	{
-		schoolName: "Bordeaux University of Technology",
-		subHeader: "Bachelor in life sciences",
-		duration: "September 2020 - Present",
-		desc: "Participated in the research of XXX and published 3 papers.",
 		descBullets: [],
 	},
 ];
@@ -165,7 +164,7 @@ export const projects = [
 	{
 		name: "JDR-LF",
 		desc: "A Firebase-based webapp similar to Roll20 designed to play online tabletop role-playing game. Players have access to game rooms with chats and maps of the world and scenes",
-		link: "https://funds-1e780.web.app/",
+		link: "https://jdr.julienlavocat.me/",
 	},
 	{
 		name: "Indiebackend",

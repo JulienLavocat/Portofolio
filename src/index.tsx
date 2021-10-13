@@ -21,10 +21,10 @@ ReactDOM.render(
 		<Greetings />
 		<Skills />
 		<Proficiency />
+		<Projects />
 		<Education />
 		{/* <Experience /> */}
 		{/* <Feedbacks /> */}
-		<Projects />
 		<GithubProfile />
 	</>,
 	document.getElementById("root")
