@@ -1,15 +1,11 @@
 import emoji from "react-easy-emoji";
 
-import googlelogo from "./assets/img/icons/common/google.svg";
-import github from "./assets/img/icons/common/github.svg";
-import airbnb from "./assets/img/icons/common/airbnbLogo.png";
-
 export const greetings = {
 	name: "Julien Lavocat",
 	title: "Hi, I'm Julien",
 	description:
 		"A motivated backend and occasionaly frontend developper who likes to overcome technical challenges. I also build cross platform mobile apps using Flutter.",
-	resumeLink: "https://julienlavocat.me/resume",
+	resumeLink: "/resume.pdf",
 };
 
 export const openSource = {
