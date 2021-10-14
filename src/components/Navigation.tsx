@@ -80,33 +80,11 @@ const Navigation = () => {
 								<NavItem>
 									<NavLink
 										className="nav-link-icon"
-										href={socialLinks.facebook}
+										href={socialLinks.medium}
 										target="_blank">
-										<i className="fa fa-facebook-square" />
+										<i className="fa fa-medium" />
 										<span className="nav-link-inner--text d-lg-none ml-2">
-											Facebook
-										</span>
-									</NavLink>
-								</NavItem>
-								<NavItem>
-									<NavLink
-										className="nav-link-icon"
-										href={socialLinks.instagram}
-										target="_blank">
-										<i className="fa fa-instagram" />
-										<span className="nav-link-inner--text d-lg-none ml-2">
-											Instagram
-										</span>
-									</NavLink>
-								</NavItem>
-								<NavItem>
-									<NavLink
-										className="nav-link-icon"
-										href={socialLinks.twitter}
-										target="_blank">
-										<i className="fa fa-twitter-square" />
-										<span className="nav-link-inner--text d-lg-none ml-2">
-											Twitter
+											Medium
 										</span>
 									</NavLink>
 								</NavItem>

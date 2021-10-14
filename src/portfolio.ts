@@ -22,6 +22,7 @@ export const socialLinks = {
 	facebook: "",
 	instagram: "",
 	twitter: "",
+	medium: "https://medium.com/@julienlavocat",
 	github: "https://github.com/JulienLavocat",
 	linkedin: "https://www.linkedin.com/in/julienlavocat/",
 };
@@ -129,6 +130,10 @@ export const skillsSection = {
 				skillName: "PostgreSQL",
 				fontAwesomeClassname: "logos:postgresql",
 			},
+			{
+				skillName: "MariaDB",
+				fontAwesomeClassname: "logos:mariadb-icon",
+			},
 		],
 		Providers: [
 			{
@@ -146,6 +151,10 @@ export const skillsSection = {
 			{
 				skillName: "Scaleway",
 				fontAwesomeClassname: "cib:scaleway",
+			},
+			{
+				skillName: "GoogleCloudPlatform",
+				fontAwesomeClassname: "logos:google-cloud",
 			},
 		],
 	},
@@ -201,7 +210,7 @@ export const experience = [
 export const projects = [
 	{
 		name: "JDR-LF",
-		desc: "A Firebase-based webapp similar to Roll20 designed to play online tabletop role-playing game. Players have access to game rooms with chats and maps of the world and scenes",
+		desc: "A Firebase-based webapp similar to Roll20 designed to play online tabletop role-playing game. Players have access to game rooms with chats channel, maps of the world and scenes",
 		link: "https://jdr.julienlavocat.me/",
 	},
 	{
