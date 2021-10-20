@@ -5,11 +5,14 @@ import code from "../assets/lottie/coding.json";
 import { Fade } from "react-reveal";
 
 import { Button, Container, Row, Col } from "reactstrap";
+import ReactGA from "react-ga";
 
 import GreetingLottie from "../components/DisplayLottie";
 import SocialLinks from "../components/SocialLinks";
 
 const Greetings = () => {
+	ReactGA.pageview(window.location.pathname);
+
 	useEffect(() => {
 		document.documentElement.scrollTop = 0;
 		if (document.scrollingElement) document.scrollingElement.scrollTop = 0;
